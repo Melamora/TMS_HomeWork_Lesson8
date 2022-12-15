@@ -215,7 +215,13 @@ h2 {
    padding: 13px 0 90px 20px;
 }
 
-input::placeholder {
+textarea {
+   resize: none;
+}
+
+
+
+textarea::placeholder {
    color: #7D818E;
    font-weight: 400;
    font-size: 16px;
